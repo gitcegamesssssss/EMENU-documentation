@@ -25,10 +25,10 @@
 3.2	USER REQUIREMENTS
 3.3	FUNCTIONAL REQUIREMENT
 3.3.1	Software Requirement Specification for  Login system
-3.3.2	Software Requirement Specification for View customer’s list
-3.3.3	Software Requirement Specification for Add customer’s list
+3.3.2	Software Requirement Specification for View customer's list
+3.3.3	Software Requirement Specification for Add customer's list
 3.3.4	Software Requirement Specification for Add information
-3.3.5	Software Requirement Specification for View information’s result
+3.3.5	Software Requirement Specification for View information's result
 3.3.6	Software Requirement Specification for Send information
 
 
