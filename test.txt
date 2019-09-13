@@ -5,3 +5,5 @@ Mew
 Beam
 
 Game
+    -game content
+    -game content
