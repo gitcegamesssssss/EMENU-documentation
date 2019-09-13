@@ -29,8 +29,8 @@
         3.3.4	Software Requirement Specification for Add information
         3.3.5	Software Requirement Specification for View information's result
         3.3.6	Software Requirement Specification for Send information
-    3.4	EXTERNAL INTERFACE REQUIREMENTS1
-        3.4.1	User Interface
+    3.4	EXTERNAL INTERFACE REQUIRE
+    
         3.4.2	Hardware Interfaces
         3.4.3	Software Interfaces
         3.4.4	Database
