@@ -1,5 +1,5 @@
-1.master
+master
 
-2.branch01
+branch01
 
-3.branch02
+branch02
