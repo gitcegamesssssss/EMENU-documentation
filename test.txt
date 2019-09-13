@@ -18,3 +18,5 @@ Mew
 Beam
 
 Game
+-game's content
+-game's content
