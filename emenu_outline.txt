@@ -41,6 +41,11 @@
 	ที่ผู้ใช้งานแบบลูกค้าสามารถดูสถานะของร้านค้าที่เปิดทำการอยู่และรายการอาหารประจำวันได้ได้ รวมถึงสามารถกดติดตามร้านค้าและรายการอาหารที่สนใจได้ ผู้ใช้งานที่เป็นแม่ค้า
 	สามารถเพิ่มลดหรือแก้ไขเมนูที่ขายในแต่ละวันได้ และผู้ใช้งานแบบทั่วไปสามารถดูสถานะของร้านค้าที่เปิดทำการอยู่และรายการอาหารประจำวันได้
 	1.4	SOFTWARE TECHNOLOGY
+		1.4.1	Technology in development
+			ภาษาที่ใช้พัฒนา : JavaScript , HTML5
+		1.4.2	Supporting Technology
+			อุปกรณ์ : PC ระบบปฎิบัติการ Windows , Linux
+			      Smartphone ระบบปฎิบัติการ iOS , Android
 2 OVERALL DESCRIPTION
     2.1	PRODUCT FUNCTION
         2.1.1	Web Service & Database
@@ -65,7 +70,9 @@
 	-  แอพพลิเคชั่นนี้ต้องสามารถแก้ไขและบันทึกข้อมูลลงไปในระบบได้
 
     2.4	CONSTRAINTS
-	-  แอพพลิเคชั่นต้องการการเชื่อมต่ออินเตอร์เน็ต
+	CO-01 แอพพลิเคชั่นต้องการการเชื่อมต่ออินเตอร์เน็ตได้
+    2.5	ASSUMPTIONS AND DEPENDENCIES
+	AS-01 ผู้ใช้จำเป็นต้องมีความรู้พื้นฐานในการใช้งานแอพพลิเคชั่นต่าง ๆบน Smartphone
 
 3 SPECIFIC REQUIREMENT
     3.1	USE CASE DIAGRAM FOR Satang’s Canteen web application
