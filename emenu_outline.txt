@@ -214,6 +214,16 @@
 					-Result : ระบบทำการบันทึกร้านค้า หรือรายการอาหารที่ผู้ใช้กดถูกใจ		
 	3.4	EXTERNAL INTERFACE REQUIRE    
         3.4.1.	User Interface
+			- login-page
+			- member-home
+			- member-all-favorite
+			- member-all-vender-available
+			- member-visit-vender
+			- guest-home
+			- guest-visit-vender
+			- vender-home
+			- vender-menu-pool
+			- vender-edit-profile
 		3.4.2.	Hardware Interfaces
 			- ใช้งานได้ดีกับ Android, IOS, Windows 10, Linux, OSX
 		3.4.3.	Software Interfaces 
