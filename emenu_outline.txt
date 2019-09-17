@@ -46,6 +46,12 @@
 3 SPECIFIC REQUIREMENT <<Beam>>
     3.1	USE CASE DIAGRAM FOR Satang’s Canteen web application
     3.2	USER REQUIREMENTS
+		URS1- ผู้ใช้สามารถ Login โดยใช้ username และ password ของตนเองได้
+		URS2- ผู้ใช้ที่เป็นลูกค้าสามารถเข้าใช้งานโดยไม่ต้อง Login ได้
+		URS3- ผู้ใช้ที่เป็นลูกค้าสามารถตรวจสอบสถานะร้านค้า และรายการอาหาร ทั้งหมดประจำวันได้
+		URS4- ผู้ใช้ที่เป็นเจ้าของร้านสามารถตรวจสอบ และแก้ไขสถานะร้านค้า และรายการอาหาร ที่ให้บริการของตนเองได้
+		URS5- ผู้ใช้ที่เป็นลูกค้าและสมัครสมาชิก สามารถตรวจสอบสถานะของรายการอาหาร และรายค้าที่กดสนใจไว้ก่อนหน้าได้
+		URS6- ผู้ใช้ที่เป็นลูกค้าและสมัครสมาชิก สามารถกดสนใจร้านค้า หรือรายการอาหารได้
     3.3	FUNCTIONAL REQUIREMENT
         3.3.1.	Software Requirement Specification for Authentication system
 		3.3.2.	Software Requirement Specification for Availability checking system
