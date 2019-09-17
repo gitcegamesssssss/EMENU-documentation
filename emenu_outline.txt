@@ -213,12 +213,17 @@
 					-Output : ปุ่มกดถูกใจมีการเปลี่ยนแปลง
 					-Result : ระบบทำการบันทึกร้านค้า หรือรายการอาหารที่ผู้ใช้กดถูกใจ		
 	3.4	EXTERNAL INTERFACE REQUIRE    
-        3.4.1.	User Interface // wireframe 
-		3.4.2.	Hardware Interfaces // device or OS **
-		3.4.3.	Software Interfaces // OS, tools
-		3.4.4.	Database // DB structure ??
+        3.4.1.	User Interface
+		3.4.2.	Hardware Interfaces
+			- ใช้งานได้ดีกับ Android, IOS, Windows 10, Linux, OSX
+		3.4.3.	Software Interfaces 
+			- ใช้งานได้ดีกับ Web Browser Chrome, Mozilla Firefox, Microsoft Edge
+		3.4.4.	Database
     3.5	OTHER REQUIREMENTS
         3.5.1	Availability
+			AVB1- แอพพลิเคชั่นจะต้องรองรับการใช้งานจากทั้งผู้ใช้ที่สมัครสมาชิก และไม่สมัครสมาชิก			
         3.5.2	Security
+			SR1- ข้อมูลส่วนตัวเช่น username, password ของผู้ใช้ถือเป็นความลับต่อผู้ใช้คนอื่นๆ
         3.5.3	Usability
+			UR1- แอพพลิเคชั่นจะต้องปรับปรุงข้อมูลเมื่อมีการเพิ่มข้อมูลจากผู้ใช้ทั้งลูกค้าและเจ้าของร้าน
 
