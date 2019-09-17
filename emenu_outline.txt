@@ -53,13 +53,125 @@
 		URS6- ผู้ใช้ที่เป็นลูกค้าและสมัครสมาชิก สามารถกดสนใจร้านค้า หรือรายการอาหารได้
     3.3	FUNCTIONAL REQUIREMENT
         3.3.1.	Software Requirement Specification for Authentication system
+			3.3.1.1. Description
+				ผู้ใช้จะทำการเข้าใช้งานระบบโดยการ Login โดยใช้ username และ password ของตนเอง หรือเข้าใช้งานโดยไม่สมัครสมาชิกแต่จะถูกจำกัดการใช้งานบางอย่าง
+			3.3.1.2. Stimulus/Response Sequences
+				เงื่อนไขก่อนการทำงาน : อุปกรณ์ต้องเชื่อมต่ออินเตอร์เน็ต
+				ขั้นตอนปฏิบัติ :
+					1. ผู้ใช้เริ่มใช้งานเว็บแอพพลิเคชั่น
+					2. แอพพลิเคชั่นแสดงหน้า Login
+					3. ผู้ใช้กรอก username และ password และกดปุ่ม login
+				เงื่อนไขหลังการทำงาน : ปรากฏหน้าต่าง home สำหรับผู้ใช้คนนั้น(ลูกค้า/เจ้าของร้าน)
+			3.3.1.3. Functional Requirement
+				SRS-1 แอพพลิเคชั่นจะต้องแสดงหน้า Login
+				SRS-2 ผู้ใช้สามารถเลือกการทำงานได้ ดังนี้ Login, Guest และ Signin
+				SRS-3 ผู้ใชสามารถเข้าใช้งานแบบ Guest ได้
+				SRS-4 ผู้ใช้สามารถเข้าสู้ระบบโดยใช้ username และ password ที่ถูกต้องของตอนเองเท่านั้น
+				SRS-5 ระบบจะทำการจำแนกประเภทของผู้ใช้ได้
+			3.3.1.4. Inputs, Processing and Outputs
+				3.3.1.4.1. Inputs
+					- Input : username, password
+					- Details : 
+				3.3.1.4.2. Processing
+					- Data : ระบบจะทำการส่ง username, password ไปตรวจสอบ
+					- Validation : ระบบจะทำการตรวจสอบ username, password ที่ส่งมาว่าถูกต้องหรือไม่ และจำแนกประเภทของผู้ใช้
+				3.3.1.4.3. Outputs
+					- Output : หากการตรวจสอบถูกต้องระบบจะแสดงหน้าถัดไป
+					- Result : ระบบตรวจสอบ และจำแนกผู้ใช้เพื่อแสดงหน้าถัดไปที่เหมาะสมกับผู้ใช้คนดังกล่าว
 		3.3.2.	Software Requirement Specification for Availability checking system
 			3.3.2.1.	Vender availability checking system
+				3.3.2.1.1. Description
+					ผู้ใช้สามารถตรวจสอบร้านค้าที่เปิดให้บริการประจำวันได้ 
+				3.3.2.1.2. Stimulus/ Response Sequences
+					เงื่อนไขก่อนการทำงาน : 
+						1. อุปกรณ์ต้องเชื่อมต่ออินเตอร์เน็ต
+						2. แอพพลิเคชั่นต้องทำการ Login แล้ว
+						3. ชนิดของผู้ใช้ต้องเป็นลูกค้าเท่านั้น
+				3.3.2.1.3. Functional Requirement
+					SRS-6 ระบบสามารถแสดงเฉพาะสถานะของร้านค้าที่ลูกค้าสนใจ(ในกรณีที่เป็นสมาชิก)
+					SRS-7 ระบบสามารถแสดงสถานะของร้านค้าที่ให้บริการประจำวันได้
+				3.3.2.1.4. Inputs, Processing and Outputs
+					3.3.2.1.4.1. Inputs
+						- Input :
+						- Details : 
+					3.3.2.1.4.2. Processing
+						- Data : 
+						- Validation : ระบบทำการตรวจสอบ รายการร้านค้าที่ผู้ใช้สนใจ
+					3.3.2.1.4.3. Outputs
+						- Output : ระบบแสดงร้านค้าที่ผู้ใช้สนใจ(ในกรณีที่เป็นสมาชิก)
+						- Result : ระบบสามารถแสดงสถานะร้านค้าตามประเภทของผู้ใช้ได้อย่างถูกต้อง
 			3.3.2.2.	Menu availability checking system
+				3.3.2.2.1. Description
+					ผู้ใช้สามารถตรวจสอบรายการอาหารประจำวันได้
+				3.3.2.2.2. Stimulus/ Response Sequences
+					เงื่อนไขก่อนการทำงาน :
+						1. อุปกรณ์ต้องเชื่อมต่ออินเตอร์เน็ต
+						2. แอพพลิเคชั่นต้องทำการ Login แล้ว
+						3. ชนิดของผู้ใช้ต้องเป็นลูกค้าเท่านั้น
+				3.3.2.2.3. Functional Requirement
+					SRS-8 ระบบสามารถแสดงเฉพาะสถานะของรายการอาหารที่ลูกค้าสนใจ(ในกรณีที่เป็นสมาชิก)
+					SRS-9 ระบบสามารถแสดงสถานะของรายการอาหารมีประจำวันได้
+				3.3.2.2.4. Inputs, Processing and Outputs
+					3.3.2.2.4.1. Inputs
+						- Input :
+						- Details : 
+					3.3.2.2.4.2. Processing
+						- Data : 
+						- Validation : ระบบทำการตรวจสอบ รายการอาหารที่ผู้ใช้สนใจ
+					3.3.2.2.4.3. Outputs
+						- Output : ระบบแสดงรายการอาหารที่ผู้ใช้สนใจ(ในกรณีที่เป็นสมาชิก)
+						- Result : ระบบสามารถแสดงสถานะของรายการอาหารตามประเภทของผู้ใช้ได้อย่างถูกต้อง
 		3.3.3.	Software Requirement Specification for Vender management system
 			3.3.3.1.	Profile editing system
+				3.3.3.1.1. Description
+					ผู้ใช้ที่เป็นเจ้าของร้านสามารถตรวจสอบ และแก้ไข ข้อมูลทั่วไปพร้อมทั้งสถานะของร้านค้าตนเองได้
+				3.3.3.1.2. Stimulus/ Response Sequences
+					เงื่อนไขก่อนการทำงาน :
+						1. อุปกรณ์ต้องเชื่อมต่ออินเตอร์เน็ต
+						2. แอพพลิเคชั่นต้องทำการ Login แล้ว
+						3. ชนิดของผู้ใช้ต้องเป็นเจ้าของร้านเท่านั้น
+				3.3.3.1.3. Functional Requirement
+					SRS-10 เจ้าของร้านสามารถตรวจสอบ และแก้ไข ข้อมูลทั่วไปพร้อมทั้งสถานะของร้านค้าตนเองได้
+				3.3.3.1.4. Inputs, Processing and Outputs
+					3.3.3.1.4.1. Inputs
+						- Input : Vender's name, Owner's name,Vender's description, Owner's contact, Vender's status(ON/OFF)
+						- Details : 
+							1. Vender's name (varchar 20) : ชื่อร้านค้า
+							2. Owner's name (varchar 20) : ชื่อเจ้าของร้าน
+							3. Vender's description (varchar 100) : รายละเอียดร้านค้า
+							4. Owner's contact (varchar 10) : เบอร์ติดต่อเจ้าของร้าน
+							5. Vender's status (int 1)  : สถานะร้านค้าประจำวัน(เปิด, ปิด)
+					3.3.3.1.4.2. Processing
+						- Data : ระบบทำการส่งข้อมูลที่แก้ไขจากผู้ใช้ไปยัง Server 
+						- Validation : ระบบตรวจสอบความถูกต้องของข้อมูล
+					3.3.3.1.4.3. Outputs
+						- Output : ระบบแสดงข้อความยืนยันการแก้ไขข้อมูล
+						- Result : ระบบแก้ไขข้อมูลตามที่ผู้ใช้กรอก
 			3.3.3.2.	Menu editing system
+				3.3.3.2.1. Description
+						ผู้ใช้ที่เป็นเจ้าของร้านสามารถตรวจสอบ และแก้ไข รายการอาหารทั้งหมดและรายการอาหารประจำวันของร้านค้าตนเองได้
+				3.3.3.2.2. Stimulus/ Response Sequences
+					เงื่อนไขก่อนการทำงาน :
+						1. อุปกรณ์ต้องเชื่อมต่ออินเตอร์เน็ต
+						2. แอพพลิเคชั่นต้องทำการ Login แล้ว
+						3. ชนิดของผู้ใช้ต้องเป็นเจ้าของร้านเท่านั้น
+				3.3.3.2.3. Functional Requirement
+					SRS-11 เจ้าของร้านสามารถตรวจสอบ และแก้ไข รายการอาหารทั้งหมดและรายการอาหารประจำวันของร้านค้าตนเองได้
+				3.3.3.2.4. Inputs, Processing and Outputs
+					3.3.3.2.4.1. Inputs
+						- Input :
+						- Details : 
+					3.3.3.2.4.2. Processing
+						- Data : 
+						- Validation :
+					3.3.3.2.4.3. Outputs
+						- Output :
+						- Result :
 		3.3.4.	Software Requirement Specification for Favoriting system
+			3.3.4.1. Description
+			3.3.4.2. Stimulus/Response Sequences
+			3.3.4.3. Functional Requirement
+			3.3.4.4. Inputs, Processing and Outputs
     3.4	EXTERNAL INTERFACE REQUIRE    
         3.4.1.	User Interface // wireframe 
 		3.4.2.	Hardware Interfaces // device or OS **
