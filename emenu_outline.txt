@@ -45,19 +45,22 @@
 	-  แอพพลิเคชั่นต้องการการเชื่อมต่ออินเตอร์เน็ต
 
 3 SPECIFIC REQUIREMENT <<Beam>>
-    3.1	USE CASE DIAGRAM FOR MUANG THAI LIFE MAP APPLICATION
+    3.1	USE CASE DIAGRAM FOR Satang’s Canteen web application
     3.2	USER REQUIREMENTS
     3.3	FUNCTIONAL REQUIREMENT
-        3.3.1	Software Requirement Specification for  Login system
-        3.3.2	Software Requirement Specification for View customer's list
-        3.3.3	Software Requirement Specification for Add customer's list
-        3.3.4	Software Requirement Specification for Add information
-        3.3.5	Software Requirement Specification for View information's result
-        3.3.6	Software Requirement Specification for Send information
+        3.3.1.	Software Requirement Specification for Authentication system
+		3.3.2.	Software Requirement Specification for Availability checking system
+			3.3.2.1.	Vender availability checking system
+			3.3.2.2.	Menu availability checking system
+		3.3.3.	Software Requirement Specification for Vender management system
+			3.3.3.1.	Profile editing system
+			3.3.3.2.	Menu editing system
+		3.3.4.	Software Requirement Specification for Favoriting system
     3.4	EXTERNAL INTERFACE REQUIRE    
-        3.4.2	Hardware Interfaces
-        3.4.3	Software Interfaces
-        3.4.4	Database
+        3.4.1.	User Interface // wireframe 
+		3.4.2.	Hardware Interfaces // device or OS **
+		3.4.3.	Software Interfaces // OS, tools
+		3.4.4.	Database // DB structure ??
     3.5	OTHER REQUIREMENTS
         3.5.1	Availability
         3.5.2	Security
